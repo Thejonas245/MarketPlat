@@ -1,0 +1,43 @@
+html, body {
+    background: #2F394B;
+    padding: 0;
+    margin: 0;
+    font-family: 'Comfortaa';
+}
+
+.sidebar {
+    background: #839FD1;
+    width: 230px;
+    height: 100vh;
+    text-align: center;
+    overflow: hidden;
+}
+
+.sidebar label {
+    color: white;
+    font-size: 24px;
+}
+
+.sidebar button {
+    width: 90%;
+    height: 30px;
+    margin-top: 10px;
+    cursor: pointer;
+    border-radius: 10px;
+    border: 0;
+    text-align: left;
+    background: none;
+    color: white;
+    font-size: 14px;
+}
+
+.sidebar button:focus, button:hover {
+    background: #2F394B;
+    border: 1px solid white;
+}
+
+.main-content {
+    background: black;
+    margin-top: 0;
+    float: right;
+}
